@@ -42,7 +42,7 @@ const images = [
   },
 ];
 
-const markup = gallery
+const markup = images
   .map((item) => {
     return `<li><img src="${item.url}" alt="${item.alt}"></li>
 `;
